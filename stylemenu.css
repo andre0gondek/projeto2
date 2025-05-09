@@ -1,0 +1,83 @@
+header img{
+    width: 300px;
+    margin-left: 10px;
+    margin-top: -40px;
+    
+}
+
+
+.menu{
+    font-size: 23px;
+    display: flex;
+}
+.menu ul{
+    text-align: end;
+    margin: 30px 70px 0px 0px;
+    width: 90%;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+    padding: 1px 6px 1px 6px;
+    
+}
+.menu ul li #Login {
+    border: 3px solid white;
+    padding: 2px 7px 2px 7px;
+    border-radius: 4px;
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu ul li #Login:hover {
+    transform: translateY(-5px);
+    border-color: #740000; 
+    box-shadow: 0 0 10px #ff5151;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.menu ul #xaxa:hover{
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+    border-bottom: 2px solid white;
+    padding: 1px 6px 1px 6px;
+    border-radius: 4px;
+    transition: border 0.05s;
+}
+.menu ul #xexe:hover{
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+    border-bottom: 2px solid white;
+    padding: 1px 6px 1px 6px;
+    border-radius: 4px;
+    transition: border 0.05s;
+}
+.menu ul #xixi:hover{
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+    border-bottom: 2px solid white;
+    padding: 1px 6px 1px 6px;
+    border-radius: 4px;
+    transition: border 0.05s;
+}
+.menu ul #xoxo:hover{
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+    border-bottom: 2px solid white;
+    padding: 1px 6px 1px 6px;
+    border-radius: 4px;
+    transition: border 0.05s;
+}
